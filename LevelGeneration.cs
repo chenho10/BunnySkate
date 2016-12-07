@@ -32,8 +32,6 @@ public class LevelGeneration : MonoBehaviour {
     public double _snowIceboundary1 = -10;
     [Range(0, 30), Tooltip("The location of boundary of ice and the snow of right hand side")]
     public double _snowIceboundary2 = 10;
-    //public double _snowEnd2 = 25;
-    //public double _iceEnd = 9;
 
     [Header("Y Direction")]
     [Range(0, 20), Tooltip("Minimal dist the Y 'pointer' will move")]
